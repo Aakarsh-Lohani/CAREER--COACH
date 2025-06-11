@@ -1,20 +1,22 @@
-# Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/UbXpRv5ApKA
+# 🎓 CAREER‑COACH
 
-![sensai](https://github.com/user-attachments/assets/eee79242-4056-4d19-b655-2873788979e1)
+A bootstrapped career guidance application that helps users discover, plan, and track their professional development. Built using web technologies to offer an intuitive interface and personalized career resources.
 
-### Make sure to create a `.env` file with following variables -
+---
 
-```
-DATABASE_URL=
+## ⚙️ Features
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+- User-friendly sign-up & sign-in flows  
+- Interactive career assessment quizzes  
+- Personalized career recommendations & resource links  
+- Dashboard with goal tracking & progress analytics  
+- Admin panel for managing quizzes, questions, and content
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+---
 
-GEMINI_API_KEY=
-```
+## 🚀 Quick Start
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/YourName/CAREER--COACH.git
+   cd CAREER--COACH
