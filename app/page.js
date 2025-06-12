@@ -37,7 +37,7 @@ export default function LandingPage() {
       {/* Features Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <Pointer>
-          <div className="text-5xl">❤️</div>
+          <div className="text-4xl">⚡</div>
         </Pointer>
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tighter text-center mb-12">
@@ -67,7 +67,7 @@ export default function LandingPage() {
 
       {/* Stats Section */}
       <section className="w-full py-12 md:py-24 bg-muted/50">
-      <Pointer><div className="text-5xl">📊</div></Pointer>
+      <Pointer><div className="text-4xl">📊</div></Pointer>
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto text-center">
             <div className="flex flex-col items-center justify-center space-y-2">
@@ -92,7 +92,7 @@ export default function LandingPage() {
 
       {/* How It Works Section */}
       <section className="w-full py-12 md:py-24 bg-background">
-        <Pointer><div className="text-6xl">🤔</div></Pointer>
+        <Pointer><div className="text-4xl">🤔</div></Pointer>
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold mb-4">How It Works</h2>
@@ -119,7 +119,7 @@ export default function LandingPage() {
       </section>
 
       <section className="w-full py-12 md:py-24 bg-muted/50">
-      <Pointer><span className="text-6xl">😎</span></Pointer>
+      <Pointer><span className="text-4xl">😎</span></Pointer>
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold text-center mb-12">
             What Our Users Say

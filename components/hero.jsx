@@ -7,7 +7,8 @@ import Link from "next/link";
 import VideoBackground from "./shared/VideoBackground";
 import { Pointer } from "@/components/magicui/pointer";
 import { AuroraText } from "@/components/magicui/aurora-text";
-import { PulsatingButton } from "@/components/magicui/pulsating-button";
+import { RainbowButton } from "@/components/magicui/rainbow-button";
+import { ShinyButton } from "@/components/magicui/shiny-button";
  
 const HeroSection = () => {
   const imageRef = useRef(null);
@@ -33,7 +34,7 @@ const HeroSection = () => {
   return (
     <section className="w-full pt-36 md:pt-48 pb-10">
       <Pointer>
-            <div className="text-5xl">👆</div>
+            <div className="text-2xl">👆</div>
           </Pointer>
       <div className="space-y-6 text-center">
         <VideoBackground
@@ -55,9 +56,9 @@ const HeroSection = () => {
         </div>
         <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
-            <PulsatingButton pulseColor="#fff" size="lg" className="px-8">
+            <RainbowButton size="lg" className="px-8 text-lg hover:bg-blue-400 animate-bounce">
               Get Started
-            </PulsatingButton>
+            </RainbowButton>
           </Link>
           
         </div>
