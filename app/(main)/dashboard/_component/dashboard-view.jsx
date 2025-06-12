@@ -28,6 +28,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { BorderBeam } from "@/components/magicui/border-beam";
+import { Pointer } from "@/components/magicui/pointer";
 
 const DashboardView = ({ insights }) => {
   // Transform salary data for the chart
