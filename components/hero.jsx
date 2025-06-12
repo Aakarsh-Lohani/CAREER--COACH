@@ -48,7 +48,7 @@ const HeroSection = () => {
           <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
             Your AI <AuroraText> Career Coach</AuroraText> for
             <br />
-            Professional Success <span className=" absolute  -top-32 left-20">  <Globe COBEOptions={{"baseColor":[1,0,0],"scale":0.36}} className="text-sm h-64 w-64 top-80  text-green-600" /></span>
+            Professional Success 
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
             Advance your career with personalized guidance, interview prep, and
