@@ -28,11 +28,11 @@ export default async function Header() {
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/">
           <Image
-            src={"/logo.jpg"}
+            src={"/logo.png"}
             alt="career-coach logo"
             width={600}
-            height={200}
-            className="object-cover w-auto py-3 mx-auto h-20 min-w-32 invert"
+            height={400}
+            className="object-cover w-auto py-3 mx-auto h-20 min-w-28 invert"
           />
         </Link>
 
