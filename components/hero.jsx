@@ -11,6 +11,7 @@ import { RainbowButton } from "@/components/magicui/rainbow-button";
 import { ShinyButton } from "@/components/magicui/shiny-button";
  import { Globe } from "@/components/magicui/globe";
 import { dark } from "@clerk/themes";
+import Earth from "./globe";
 const HeroSection = () => {
   const imageRef = useRef(null);
 
@@ -44,11 +45,12 @@ const HeroSection = () => {
                 
               />
         <div className=" space-y-6 mx-auto">
-        
+        <span > <Earth className="h-64 w-64 opacity-50"/> </span>
           <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
             Your AI <AuroraText> Career Coach</AuroraText> for
             <br />
             Professional Success 
+
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
             Advance your career with personalized guidance, interview prep, and

@@ -24,15 +24,15 @@ export default async function Header() {
   await checkUser();
 
   return (
-    <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
+    <header className="fixed top-0 w-full  border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/">
           <Image
             src={"/logo.jpg"}
             alt="career-coach logo"
-            width={800}
-            height={720}
-            className="object-cover w-auto py-3 mx-auto h-36 min-w-24 invert"
+            width={600}
+            height={200}
+            className="object-cover w-auto py-3 mx-auto h-20 min-w-32 invert"
           />
         </Link>
 
