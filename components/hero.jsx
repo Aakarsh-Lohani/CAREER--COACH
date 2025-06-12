@@ -47,7 +47,7 @@ const HeroSection = () => {
         <div className=" space-y-6 mx-auto">
         <span > <Earth className="h-64 w-64 opacity-50"/> </span>
           <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
-            Your AI <AuroraText> Career Coach</AuroraText> for
+            Your AI <AuroraText> Career Elevate</AuroraText> for
             <br />
             Professional Success 
 
