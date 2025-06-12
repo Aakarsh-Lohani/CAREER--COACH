@@ -26,6 +26,7 @@ import { BorderBeam } from "@/components/magicui/border-beam";
 import { NeonGradientCard } from "@/components/magicui/neon-gradient-card";
 import { NumberTicker } from "@/components/magicui/number-ticker";
 import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
+import { Marquee } from "@/components/magicui/marquee";
 export default function LandingPage() {
   return (
     <>
@@ -124,10 +125,17 @@ export default function LandingPage() {
           <h2 className="text-3xl font-bold text-center mb-12">
             What Our Users Say
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-6xl mx-auto">
-            
+          <div className="relative  md:flex  md:p-4  gap-5 max-w-6xl mx-auto">
+      
             {testimonial.map((testimonial, index) => (
-              <Card key={index} className="bg-background">
+              
+              <Card key={index} className="bg-background border-2 w-80">
+                        <BorderBeam
+        duration={6}
+        delay={3}
+        size={300}
+        className="from-transparent via-blue-500 via-lime-500 to-pink-500 "
+      />
                 <CardContent className="pt-6">
                   <div className="flex flex-col space-y-4">
                     <div className="flex items-center space-x-4 mb-4">
@@ -163,8 +171,11 @@ export default function LandingPage() {
                     </blockquote>
                   </div>
                 </CardContent>
+               
               </Card>
+             
             ))}
+             
           </div>
         </div>
       </section>

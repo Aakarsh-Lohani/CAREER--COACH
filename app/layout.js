@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
 
  <footer className="py-12 bg-muted/50">
               <div className="container px-4 mx-auto text-center text-gray-200">
-                <p className="text-lg font-bold tracking-wider">All rights are reserved  &copy 2025; </p>
+                <p className="text-lg font-bold tracking-wider">All rights are reserved  &copy; {new Date().getFullYear()}; </p>
               </div>
             </footer>
           </ThemeProvider>

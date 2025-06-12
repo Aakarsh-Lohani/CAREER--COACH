@@ -9,7 +9,8 @@ import { Pointer } from "@/components/magicui/pointer";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
 import { ShinyButton } from "@/components/magicui/shiny-button";
- 
+ import { Globe } from "@/components/magicui/globe";
+import { dark } from "@clerk/themes";
 const HeroSection = () => {
   const imageRef = useRef(null);
 
@@ -42,12 +43,12 @@ const HeroSection = () => {
                 fallbackImageSrc="/herobg.jpg"
                 
               />
-        <div className="space-y-6 mx-auto">
-          
+        <div className=" space-y-6 mx-auto">
+        
           <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
             Your AI <AuroraText> Career Coach</AuroraText> for
             <br />
-            Professional Success
+            Professional Success <span className=" absolute  -top-32 left-20">  <Globe COBEOptions={{"baseColor":[1,0,0],"scale":0.36}} className="text-sm h-64 w-64 top-80  text-green-600" /></span>
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
             Advance your career with personalized guidance, interview prep, and
