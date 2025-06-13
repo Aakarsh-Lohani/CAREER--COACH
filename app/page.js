@@ -33,9 +33,7 @@ export default async function LandingPage() {
   const { userId } = await auth();
    
   
-    const user = await db.user.findUnique({
-      where: { clerkUserId: userId },
-    });
+    
   return (
     <>
       <div className="grid-background"></div>
@@ -54,7 +52,7 @@ export default async function LandingPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {features.map((feature, index) => (
-             <Link key={index} href={user?`${feature.link}`:'/dashboard'}>
+             <Link key={index} href={userId?`${feature.link}`:'/dashboard'}>
                <NeonGradientCard className="border-2 hover:border-primary transition-colors duration-300">
                  <CardContent className="pt-6 text-center flex flex-col items-center">
                    <div className="flex flex-col items-center justify-center">
