@@ -50,6 +50,7 @@ export async function generateQuiz() {
     const cleanedText = text.replace(/```(?:json)?\n?/g, "").trim();
     const quiz = JSON.parse(cleanedText);
 
+
     return quiz.questions;
   } catch (error) {
     console.error("Error generating quiz:", error);

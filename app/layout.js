@@ -33,11 +33,11 @@ export default function RootLayout({ children }) {
             disableTransitionOnChange
           >
             <Header />
-            <main className="min-h-screen">{children}</main>
+            <main className="min-h-screen overflow-hidden">{children}</main>
             <Toaster richColors />
 
- <footer className="relative min-h-12 py-12 bg-muted/50">
- <SpinningText className="  absolute top-16 right-20 font-semibold">AI • Based • Career • Guidance •</SpinningText>
+ <footer className="relative min-h-24 py-16 bg-muted/50 overflow-hidden">
+ <SpinningText  duration={6}  className="  absolute top-16 right-20 font-bold h-4 ">AI • Based • Career • Guidance •</SpinningText>
               <div className="container px-4 mx-auto text-center text-gray-200">
                 <p className="text-lg font-bold tracking-wider">All rights are reserved  &copy; {new Date().getFullYear()}; </p>
               </div>
