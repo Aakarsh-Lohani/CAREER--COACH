@@ -152,7 +152,7 @@ export function EntryForm({ type, entries, onChange }) {
               </div>
               <div className="space-y-2">
                 <Input
-                  placeholder="Organization/Company"
+                  placeholder={`${type=== 'Experience' ? 'Organization/company' : type === 'Education' ? 'Institution/School' : 'individual/team'}`}
                   {...register("organization")}
                   error={errors.organization}
                 />
