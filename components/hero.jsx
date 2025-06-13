@@ -8,10 +8,11 @@ import VideoBackground from "./shared/VideoBackground";
 import { Pointer } from "@/components/magicui/pointer";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
-import { ShinyButton } from "@/components/magicui/shiny-button";
- import { Globe } from "@/components/magicui/globe";
+
 import { dark } from "@clerk/themes";
 import Earth from "./globe";
+
+  
 const HeroSection = () => {
   const imageRef = useRef(null);
 
@@ -33,6 +34,8 @@ const HeroSection = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+
   return (
     <section className="w-full pt-36 md:pt-48 pb-10">
       <Pointer>
@@ -45,7 +48,8 @@ const HeroSection = () => {
                 
               />
         <div className=" space-y-6 mx-auto">
-        <span > <Earth className="h-64 w-64 opacity-75"/> </span>
+        <span > <Earth className="h-64 w-64 opacity-75  -my-12"/> </span>
+          
           <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
             Your AI <AuroraText> Career Elevate</AuroraText> for
             <br />

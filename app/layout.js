@@ -5,6 +5,7 @@ import { Toaster } from "sonner";
 import Header from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { dark } from "@clerk/themes";
+import { SpinningText } from "@/components/magicui/spinning-text";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,7 +36,8 @@ export default function RootLayout({ children }) {
             <main className="min-h-screen">{children}</main>
             <Toaster richColors />
 
- <footer className="py-12 bg-muted/50">
+ <footer className="relative min-h-12 py-12 bg-muted/50">
+ <SpinningText className="  absolute top-16 right-20 font-semibold">AI • Based • Career • Guidance •</SpinningText>
               <div className="container px-4 mx-auto text-center text-gray-200">
                 <p className="text-lg font-bold tracking-wider">All rights are reserved  &copy; {new Date().getFullYear()}; </p>
               </div>

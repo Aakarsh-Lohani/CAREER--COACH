@@ -28,7 +28,8 @@ import { NumberTicker } from "@/components/magicui/number-ticker";
 import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
 import { Marquee } from "@/components/magicui/marquee";
 import { auth } from "@clerk/nextjs/server";
-import { db } from "@/lib/prisma";
+
+
 export default async function LandingPage() {
   const { userId } = await auth();
    
@@ -39,6 +40,7 @@ export default async function LandingPage() {
       <div className="grid-background"></div>
 
       {/* Hero Section */}
+     
       <HeroSection />
 
       {/* Features Section */}
@@ -223,7 +225,7 @@ export default async function LandingPage() {
               Join thousands of professionals who are advancing their careers
               with AI-powered guidance.
             </p>
-            <Link href="/dashboard" passHref>
+            <Link href="/dashboard" >
               <Button
                 size="lg"
                 variant="secondary"
