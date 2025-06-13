@@ -217,7 +217,7 @@ export default function ResumeBuilder({ initialContent }) {
                   <Input
                     {...register("contactInfo.mobile")}
                     type="tel"
-                    placeholder="=8271087976"
+                    placeholder="+91-8271087976"
                   />
                   {errors.contactInfo?.mobile && (
                     <p className="text-sm text-red-500">
